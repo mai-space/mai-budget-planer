@@ -1,11 +1,11 @@
 {
-    "name": "mai_budget_planer",
-    "short_name": "mai_budget_planer",
+    "name": "Budget",
+    "short_name": "Budget",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "Lokaler Budgetplaner — Privacy first (Mai Budget Planer).",
+    "description": "Lokaler Budgetplaner — Privacy first.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

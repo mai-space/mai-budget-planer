@@ -16,6 +16,6 @@
     <string name="widget_share">%1$d %% · Ziel %2$d %%</string>
     <string name="widget_this_month">Diesen Monat</string>
     <string name="widget_hidden">••••</string>
-    <string name="widget_open_app">Mai Budget öffnen und loslegen</string>
+    <string name="widget_open_app">Budget öffnen und loslegen</string>
     <string name="widget_no_upcoming">Keine Jahres- oder Quartalszahlungen geplant</string>
 </resources>

@@ -12,7 +12,7 @@ class AppLogo extends StatelessWidget {
       'assets/branding/logo.png',
       width: size,
       height: size,
-      semanticLabel: 'Mai Budget',
+      semanticLabel: 'Budget',
     );
   }
 }
