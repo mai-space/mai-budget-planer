@@ -3,7 +3,7 @@
          nur über eine vom Nutzer erstellte, verschlüsselte Sicherung. -->
     <uses-permission android:name="android.permission.USE_BIOMETRIC"/>
     <application
-        android:label="Mai Budget"
+        android:label="Budget"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher"
         android:allowBackup="false"

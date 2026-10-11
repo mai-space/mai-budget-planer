@@ -97,7 +97,7 @@ class AppLocalizationsDe extends AppLocalizations {
       'Am Monatsende hat jede Person gleich viel frei verfügbar.';
 
   @override
-  String get appTitle => 'Mai Budget';
+  String get appTitle => 'Budget';
 
   @override
   String get commonBack => 'Zurück';
@@ -711,10 +711,10 @@ class AppLocalizationsDe extends AppLocalizations {
   String get settingsLockReasonDisable => 'App-Sperre ausschalten';
 
   @override
-  String get settingsLockReasonUnlock => 'Mai Budget entsperren';
+  String get settingsLockReasonUnlock => 'Budget entsperren';
 
   @override
-  String get settingsLockLockedTitle => 'Mai Budget ist gesperrt';
+  String get settingsLockLockedTitle => 'Budget ist gesperrt';
 
   @override
   String get settingsLockLockedText =>
@@ -856,7 +856,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get backupFailed => 'Sicherung fehlgeschlagen';
 
   @override
-  String get backupShareSubject => 'Mai Budget Sicherung';
+  String get backupShareSubject => 'Budget-Sicherung';
 
   @override
   String get backupPick => 'Sicherung auswählen';
@@ -896,7 +896,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get backupPassphraseMismatch => 'Passwörter stimmen nicht überein';
 
   @override
-  String get backupWrongApp => 'Diese Datei ist keine Mai-Budget-Sicherung.';
+  String get backupWrongApp => 'Diese Datei ist keine Budget-Sicherung.';
 
   @override
   String get backupTooNew =>
@@ -918,5 +918,5 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get settingsWidgetsHint =>
-      'Lange auf den Startbildschirm tippen → Widgets → Mai Budget. Drei Widgets: Frei verfügbar, Demnächst fällig und Neuer Posten — alle in der Größe veränderbar.';
+      'Lange auf den Startbildschirm tippen → Widgets → Budget. Drei Widgets: Frei verfügbar, Demnächst fällig und Neuer Posten — alle in der Größe veränderbar.';
 }

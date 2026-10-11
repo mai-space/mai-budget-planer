@@ -97,7 +97,7 @@ class AppLocalizationsEn extends AppLocalizations {
       'At the end of the month everyone has the same amount left.';
 
   @override
-  String get appTitle => 'Mai Budget';
+  String get appTitle => 'Budget';
 
   @override
   String get commonBack => 'Back';
@@ -709,10 +709,10 @@ class AppLocalizationsEn extends AppLocalizations {
   String get settingsLockReasonDisable => 'Turn off app lock';
 
   @override
-  String get settingsLockReasonUnlock => 'Unlock Mai Budget';
+  String get settingsLockReasonUnlock => 'Unlock Budget';
 
   @override
-  String get settingsLockLockedTitle => 'Mai Budget is locked';
+  String get settingsLockLockedTitle => 'Budget is locked';
 
   @override
   String get settingsLockLockedText => 'Unlock the app to see your numbers.';
@@ -853,7 +853,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get backupFailed => 'Backup failed';
 
   @override
-  String get backupShareSubject => 'Mai Budget backup';
+  String get backupShareSubject => 'Budget backup';
 
   @override
   String get backupPick => 'Choose backup';
@@ -893,7 +893,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get backupPassphraseMismatch => 'Passwords do not match';
 
   @override
-  String get backupWrongApp => 'This file is not a Mai Budget backup.';
+  String get backupWrongApp => 'This file is not a Budget backup.';
 
   @override
   String get backupTooNew =>
@@ -914,5 +914,5 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get settingsWidgetsHint =>
-      'Long-press your home screen → Widgets → Mai Budget. Three widgets: Free to spend, Due soon and New item — all resizable.';
+      'Long-press your home screen → Widgets → Budget. Three widgets: Free to spend, Due soon and New item — all resizable.';
 }

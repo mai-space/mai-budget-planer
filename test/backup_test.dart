@@ -103,7 +103,7 @@ void main() {
         isA<BackupException>().having(
           (e) => e.message,
           'message',
-          contains('keine Mai-Budget-Sicherung'),
+          contains('keine Budget-Sicherung'),
         ),
       ),
     );

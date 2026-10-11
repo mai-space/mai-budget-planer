@@ -269,7 +269,7 @@ abstract class AppLocalizations {
   /// No description provided for @appTitle.
   ///
   /// In de, this message translates to:
-  /// **'Mai Budget'**
+  /// **'Budget'**
   String get appTitle;
 
   /// No description provided for @commonBack.
@@ -1181,13 +1181,13 @@ abstract class AppLocalizations {
   /// No description provided for @settingsLockReasonUnlock.
   ///
   /// In de, this message translates to:
-  /// **'Mai Budget entsperren'**
+  /// **'Budget entsperren'**
   String get settingsLockReasonUnlock;
 
   /// No description provided for @settingsLockLockedTitle.
   ///
   /// In de, this message translates to:
-  /// **'Mai Budget ist gesperrt'**
+  /// **'Budget ist gesperrt'**
   String get settingsLockLockedTitle;
 
   /// No description provided for @settingsLockLockedText.
@@ -1439,7 +1439,7 @@ abstract class AppLocalizations {
   /// No description provided for @backupShareSubject.
   ///
   /// In de, this message translates to:
-  /// **'Mai Budget Sicherung'**
+  /// **'Budget-Sicherung'**
   String get backupShareSubject;
 
   /// No description provided for @backupPick.
@@ -1511,7 +1511,7 @@ abstract class AppLocalizations {
   /// No description provided for @backupWrongApp.
   ///
   /// In de, this message translates to:
-  /// **'Diese Datei ist keine Mai-Budget-Sicherung.'**
+  /// **'Diese Datei ist keine Budget-Sicherung.'**
   String get backupWrongApp;
 
   /// No description provided for @backupTooNew.
@@ -1547,7 +1547,7 @@ abstract class AppLocalizations {
   /// No description provided for @settingsWidgetsHint.
   ///
   /// In de, this message translates to:
-  /// **'Lange auf den Startbildschirm tippen → Widgets → Mai Budget. Drei Widgets: Frei verfügbar, Demnächst fällig und Neuer Posten — alle in der Größe veränderbar.'**
+  /// **'Lange auf den Startbildschirm tippen → Widgets → Budget. Drei Widgets: Frei verfügbar, Demnächst fällig und Neuer Posten — alle in der Größe veränderbar.'**
   String get settingsWidgetsHint;
 }
 
