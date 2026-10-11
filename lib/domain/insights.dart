@@ -87,6 +87,21 @@ abstract final class Insights {
   /// Typische Ersparnis bei jährlicher statt monatlicher Zahlweise.
   static const annualPaymentDiscount = 0.04;
 
+  /// Unterkategorien, deren Abos sich abwechselnd nutzen lassen.
+  static const rotatableTags = [
+    'streaming',
+    'unterhaltung',
+    'entertainment',
+    'video',
+    'tv',
+    'film',
+    'serie',
+    'musik',
+    'music',
+    'hörbuch',
+    'audiobook',
+  ];
+
   /// Anteil am Nettoeinkommen, ab dem ein Wunsch-Posten auffällt.
   static const bigWantShare = 0.05;
 
@@ -177,6 +192,8 @@ abstract final class Insights {
       final tag = item.tag?.trim();
       if (tag == null || tag.isEmpty) continue;
       if (s.categoryOf(item)?.systemKey != CategoryKey.subscriptions) continue;
+      // Rotieren ergibt nur bei Medien-Abos Sinn (nicht bei Sport, Hosting …).
+      if (!rotatableTags.any(tag.toLowerCase().contains)) continue;
       byTag.putIfAbsent(tag.toLowerCase(), () => []).add(item);
     }
     for (final group in byTag.values) {

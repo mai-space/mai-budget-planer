@@ -84,6 +84,11 @@ void main() {
         item('C', 10, category: CategoryKey.subscriptions, tag: 'Streaming'),
         // Andere Kategorie zählt nicht.
         item('D', 50, category: CategoryKey.leisure, tag: 'Streaming'),
+        // Sport/Hosting lassen sich nicht rotieren.
+        item('Gym', 30, category: CategoryKey.subscriptions, tag: 'Sport'),
+        item('Mode', 2, category: CategoryKey.subscriptions, tag: 'Sport'),
+        item('Hosting', 12, category: CategoryKey.subscriptions, tag: 'Web'),
+        item('Domains', 6, category: CategoryKey.subscriptions, tag: 'Web'),
       ],
     );
     final overlap = only(
