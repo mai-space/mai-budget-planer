@@ -90,4 +90,4 @@ Rein lokal, deterministisch, getestet (`lib/domain/insights.dart`):
 7. **iOS**: Schlüsselbund-Kanal und `SecureWindow` wie in Doctor Hub.
 8. **Gemeinsame Nutzung zu zweit** ohne Server: verschlüsselte Sicherung
    austauschen oder später lokaler Sync.
-9. **App-Icon** und eigenes Logo (aktuell Platzhalter-Symbol).
+9. ~~App-Icon~~ — erledigt (`tool/generate_icons.py`).
