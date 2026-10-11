@@ -1,0 +1,22 @@
+{
+  "overviewFree": "Free to spend",
+  "overviewIncome": "Net income",
+  "overviewPlanned": "Planned items",
+  "overviewPlannedHint": "Fixed costs, subscriptions, groceries, wishes and savings",
+  "overviewFreeOf": "Free for {name}",
+  "overviewDeductions": "Deductions (tax and social security): {percent} % of gross",
+  "overviewEmptyTitle": "No items yet",
+  "overviewEmptyText": "Add rent, insurance, subscriptions, groceries and savings — the overview converts everything to month and year.",
+  "overviewRuleTitle": "Budget rule {needs}/{wants}/{savings}",
+  "overviewRuleNoIncome": "Add an income to see the split.",
+  "overviewRuleShare": "{share} % of {target} %",
+  "overviewRuleHint": "Shares of net income. The line marks the target; whatever is left is free to spend.",
+  "overviewCategories": "Categories",
+  "overviewReserveTitle": "Reserve for annual payments",
+  "overviewReserveText": "Set aside {amount} per month for insurance, taxes and other non-monthly items.",
+  "overviewDueSoon": "Due soon",
+  "overviewDueThisMonth": "This month",
+  "overviewDueInMonths": "{months, plural, =1{Next month} other{In {months} months}}",
+  "overviewInsights": "{count, plural, =1{1 tip for your budget} other{{count} tips for your budget}}",
+  "overviewInsightsPotential": "Possible savings approx. {amount} per month"
+}

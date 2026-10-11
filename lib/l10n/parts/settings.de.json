@@ -1,0 +1,148 @@
+{
+  "settingsBudgetSection": "Budget",
+  "settingsHousehold": "Haushalt & Einkommen",
+  "settingsHouseholdSummary": "{count, plural, =1{1 Person} other{{count} Personen}} · {income} netto/Monat",
+  "@settingsHouseholdSummary": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "income": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsAccounts": "Konten",
+  "settingsAccountsSummary": "{count, plural, =0{Noch keine Konten} =1{1 Konto} other{{count} Konten}}",
+  "@settingsAccountsSummary": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsCategories": "Bereiche",
+  "settingsCategoriesSummary": "{count} Bereiche",
+  "@settingsCategoriesSummary": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsRule": "Budgetregel",
+  "settingsRuleValue": "{needs} % Grundbedarf · {wants} % Wünsche · {savings} % Sparen",
+  "@settingsRuleValue": {
+    "placeholders": {
+      "needs": {
+        "type": "int"
+      },
+      "wants": {
+        "type": "int"
+      },
+      "savings": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsRuleHint": "Wie viel vom Nettoeinkommen in welchen Topf gehen soll. Bekannt ist 50/30/20.",
+  "settingsSecuritySection": "Sicherheit",
+  "settingsLockTitle": "App-Sperre",
+  "settingsLockSubtitle": "Entsperren mit Fingerabdruck oder Geräte-PIN; Inhalte in „Zuletzt verwendet“ und Screenshots ausblenden",
+  "settingsLockNoDeviceLock": "Richte zuerst eine Displaysperre auf dem Gerät ein.",
+  "settingsLockReasonSetup": "App-Sperre einschalten",
+  "settingsLockReasonDisable": "App-Sperre ausschalten",
+  "settingsLockReasonUnlock": "Mai Budget entsperren",
+  "settingsLockLockedTitle": "Mai Budget ist gesperrt",
+  "settingsLockLockedText": "Entsperre die App, um deine Zahlen zu sehen.",
+  "settingsLockUnlock": "Entsperren",
+  "settingsBackupSection": "Sicherung",
+  "settingsPrivacySection": "Datenschutz",
+  "settingsPrivacyText": "Alle Daten liegen verschlüsselt in der App auf diesem Gerät (SQLCipher-kompatibel, Schlüssel im Android-Keystore). Die App hat keine Internet-Berechtigung, nimmt nicht an Android-Backups teil und überträgt nichts. Daten verlassen das Gerät nur über eine Sicherung, die du selbst mit Passwort erstellst.",
+  "settingsKeyUnavailableTitle": "Schlüssel gerade nicht verfügbar",
+  "settingsKeyUnavailableText": "Der Schlüssel deiner verschlüsselten Daten konnte gerade nicht gelesen werden. Deine Daten sind unverändert — bitte versuche es gleich noch einmal.",
+  "settingsUnreadableTitle": "Alte Daten nicht lesbar",
+  "settingsUnreadableText": "Die gespeicherten Daten ließen sich nicht entschlüsseln (z. B. nach Zurücksetzen der Gerätesicherheit) und wurden beiseitegelegt. Stelle sie aus einer Sicherung wieder her.",
+  "householdAddPerson": "Person hinzufügen",
+  "householdRename": "Umbenennen",
+  "householdRemoveTitle": "{name} entfernen?",
+  "@householdRemoveTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "householdRemoveText": "Einkommen und Konten der Person werden archiviert. Ihre Posten bleiben erhalten und zählen danach als gemeinsam.",
+  "householdNet": "{amount} netto pro Monat",
+  "@householdNet": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "householdGross": "brutto {amount}",
+  "@householdGross": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "householdAddIncome": "Einkommen hinzufügen",
+  "householdIncomeOf": "Einkommen von {name}",
+  "@householdIncomeOf": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "householdIncomeLabel": "Bezeichnung",
+  "householdNetLabel": "Netto",
+  "householdGrossLabel": "Brutto (optional)",
+  "householdGrossHint": "Nur für die Anzeige der Abzüge",
+  "accountsAdd": "Konto hinzufügen",
+  "accountsEdit": "Konto bearbeiten",
+  "accountsIntro": "Konten sind die Ziele im Verteiler: Girokonten, Tagesgeld-Unterkonten für Urlaub oder Geschenke, Karten. Das Hauptkonto einer Person bekommt, was übrig bleibt.",
+  "accountsKind": "Art",
+  "accountsOwner": "Inhaber",
+  "accountsJoint": "Gemeinsam",
+  "accountsMain": "Hauptkonto",
+  "accountsMainHint": "Bekommt das frei verfügbare Geld",
+  "accountsRate": "Zinssatz",
+  "accountsBalance": "Aktueller Kontostand (optional)",
+  "accountsBalanceHint": "Für Notgroschen und Sparprognose",
+  "categoriesAdd": "Bereich hinzufügen",
+  "categoriesEdit": "Bereich bearbeiten",
+  "categoriesIntro": "Bereiche gliedern deine Posten. Der Topf bestimmt, wie sie in der Budgetregel zählen.",
+  "categoriesNotEmpty": "Nur leere Bereiche können gelöscht werden.",
+  "backupIntro": "Verschlüsselte Datei mit allen Daten (AES-256). Ohne Passwort lässt sie sich nicht öffnen — bewahre es gut auf.",
+  "backupCreate": "Sicherung erstellen",
+  "backupRestore": "Wiederherstellen",
+  "backupCreated": "Sicherung erstellt",
+  "backupFailed": "Sicherung fehlgeschlagen",
+  "backupShareSubject": "Mai Budget Sicherung",
+  "backupPick": "Sicherung auswählen",
+  "backupRestoreConfirmTitle": "Alle Daten ersetzen?",
+  "backupRestoreConfirmText": "Die Sicherung ersetzt alle aktuellen Daten in der App. Das lässt sich nicht rückgängig machen.",
+  "backupReplace": "Ersetzen",
+  "backupRestored": "Sicherung vom {date} wiederhergestellt",
+  "@backupRestored": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "backupPassphrase": "Passwort",
+  "backupPassphraseRepeat": "Passwort wiederholen",
+  "backupPassphraseCreateHint": "Mit diesem Passwort wird die Sicherung verschlüsselt. Es wird nirgends gespeichert.",
+  "backupPassphraseRestoreHint": "Passwort der Sicherung eingeben.",
+  "backupPassphraseTooShort": "Mindestens 8 Zeichen",
+  "backupPassphraseMismatch": "Passwörter stimmen nicht überein",
+  "backupWrongApp": "Diese Datei ist keine Mai-Budget-Sicherung.",
+  "backupTooNew": "Die Sicherung stammt aus einer neueren App-Version — bitte erst die App aktualisieren.",
+  "backupUnsupported": "Sicherungen sind in dieser Version nicht verfügbar."
+}

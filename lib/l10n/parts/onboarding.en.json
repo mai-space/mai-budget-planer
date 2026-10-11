@@ -1,0 +1,15 @@
+{
+  "onboardingTitle": "Your budget stays with you",
+  "onboardingSubtitle": "Income, fixed costs, subscriptions and savings goals in one place — for you alone or the whole household.",
+  "onboardingPointEncrypted": "All numbers are stored encrypted on this device only. No account, no server.",
+  "onboardingPointOffline": "The app needs no internet and no bank connection — you enter your items yourself.",
+  "onboardingPointDistribution": "The split view shows who transfers how much to which account and how to settle fairly.",
+  "onboardingPointInsights": "Tips point out savings: duplicate subscriptions, payment frequency, interest, budget rule.",
+  "onboardingHouseholdTitle": "Who is in the household?",
+  "onboardingHouseholdText": "Add everyone who contributes to the budget with their monthly net income.",
+  "onboardingNet": "Net per month",
+  "onboardingHint": "You can add more income sources, gross pay and accounts later in the settings.",
+  "onboardingStart": "Get started",
+  "onboardingIncomeLabel": "Salary",
+  "onboardingMainAccount": "{name}'s current account"
+}

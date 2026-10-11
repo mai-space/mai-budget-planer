@@ -1,0 +1,22 @@
+{
+  "onboardingTitle": "Dein Budget bleibt bei dir",
+  "onboardingSubtitle": "Einkommen, Fixkosten, Abos und Sparziele an einem Ort — für dich allein oder den ganzen Haushalt.",
+  "onboardingPointEncrypted": "Alle Zahlen liegen verschlüsselt nur auf diesem Gerät. Kein Konto, kein Server.",
+  "onboardingPointOffline": "Die App braucht kein Internet und keine Bankverbindung — du trägst deine Posten selbst ein.",
+  "onboardingPointDistribution": "Der Verteiler zeigt, wer wie viel auf welches Konto überweist und wie ihr fair ausgleicht.",
+  "onboardingPointInsights": "Tipps zeigen Sparpotenziale: doppelte Abos, Zahlweise, Zinsen, Budgetregel.",
+  "onboardingHouseholdTitle": "Wer gehört zum Haushalt?",
+  "onboardingHouseholdText": "Trage alle Personen ein, die zum Budget beitragen, mit ihrem monatlichen Nettoeinkommen.",
+  "onboardingNet": "Netto pro Monat",
+  "onboardingHint": "Weitere Einkommen, Brutto und Konten kannst du später in den Einstellungen ergänzen.",
+  "onboardingStart": "Los geht's",
+  "onboardingIncomeLabel": "Gehalt",
+  "onboardingMainAccount": "Girokonto {name}",
+  "@onboardingMainAccount": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  }
+}

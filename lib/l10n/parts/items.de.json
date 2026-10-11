@@ -1,0 +1,67 @@
+{
+  "itemsAdd": "Posten hinzufügen",
+  "itemsEdit": "Posten bearbeiten",
+  "itemsEmptyTitle": "Noch keine Posten",
+  "itemsEmptyText": "Tippe auf „Posten hinzufügen“. Vorschläge helfen bei Miete, Versicherungen, Abos und mehr.",
+  "itemsSearch": "Posten suchen",
+  "itemsFilterAll": "Alle",
+  "itemsFilterShared": "Gemeinsam",
+  "itemsCount": "{count, plural, =0{Keine Posten} =1{1 Posten} other{{count} Posten}}",
+  "@itemsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "itemsHasPotential": "Sparpotenzial",
+  "itemsDeleted": "„{label}“ gelöscht",
+  "@itemsDeleted": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "itemsLabel": "Bezeichnung",
+  "itemsCategory": "Bereich",
+  "itemsAmount": "Betrag",
+  "itemsInterval": "Rhythmus",
+  "itemsMonthlyEquivalent": "Entspricht {amount} pro Monat",
+  "@itemsMonthlyEquivalent": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "itemsDueMonth": "Fällig im",
+  "itemsPayer": "Wer zahlt?",
+  "itemsJoint": "Gemeinschaftskonto",
+  "itemsBeneficiary": "Für wen?",
+  "itemsBeneficiaryHint": "Wichtig für den fairen Ausgleich",
+  "itemsHousehold": "Ganzer Haushalt",
+  "itemsAccount": "Abbuchung von Konto",
+  "itemsAccountSavings": "Sparen auf Konto",
+  "itemsDetails": "Details",
+  "itemsDetailsHint": "Topf, Anbieter, Vertragsnummer, Sparpotenzial …",
+  "itemsBucket": "Topf (Budgetregel)",
+  "itemsBucketHint": "z. B. Genussmittel unter Lebensmittel als „Wünsche“ zählen",
+  "itemsBucketFromCategory": "Wie Bereich ({bucket})",
+  "@itemsBucketFromCategory": {
+    "placeholders": {
+      "bucket": {
+        "type": "String"
+      }
+    }
+  },
+  "itemsTag": "Unterkategorie",
+  "itemsTagHint": "z. B. Streaming, Sport — gleiche Unterkategorien werden verglichen",
+  "itemsProvider": "Anbieter",
+  "itemsContract": "Vertrags-/Versicherungsnummer",
+  "itemsPhone": "Telefon",
+  "itemsPotential": "Mögliche Ersparnis pro Monat",
+  "itemsPotentialHint": "Eigene Einschätzung, z. B. nach Tarifvergleich oder Kündigung",
+  "itemsTarget": "Sparziel",
+  "itemsNotes": "Notizen"
+}

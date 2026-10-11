@@ -1,0 +1,87 @@
+{
+  "overviewFree": "Frei verfügbar",
+  "overviewIncome": "Nettoeinkommen",
+  "overviewPlanned": "Geplante Posten",
+  "overviewPlannedHint": "Fixkosten, Abos, Lebensmittel, Wünsche und Sparraten",
+  "overviewFreeOf": "Frei für {name}",
+  "@overviewFreeOf": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "overviewDeductions": "Abzüge (Steuern und Sozialabgaben): {percent} % vom Brutto",
+  "@overviewDeductions": {
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "overviewEmptyTitle": "Noch keine Posten",
+  "overviewEmptyText": "Lege Miete, Versicherungen, Abos, Lebensmittel und Sparraten an — die Übersicht rechnet alles auf Monat und Jahr um.",
+  "overviewRuleTitle": "Budgetregel {needs}/{wants}/{savings}",
+  "@overviewRuleTitle": {
+    "placeholders": {
+      "needs": {
+        "type": "int"
+      },
+      "wants": {
+        "type": "int"
+      },
+      "savings": {
+        "type": "int"
+      }
+    }
+  },
+  "overviewRuleNoIncome": "Trage ein Einkommen ein, um die Verteilung zu sehen.",
+  "overviewRuleShare": "{share} % von {target} %",
+  "@overviewRuleShare": {
+    "placeholders": {
+      "share": {
+        "type": "String"
+      },
+      "target": {
+        "type": "int"
+      }
+    }
+  },
+  "overviewRuleHint": "Anteile am Nettoeinkommen. Der Strich markiert das Ziel; was übrig bleibt, ist frei verfügbar.",
+  "overviewCategories": "Bereiche",
+  "overviewReserveTitle": "Rücklage für Jahreszahlungen",
+  "overviewReserveText": "Für Versicherungen, Steuern und andere nicht monatliche Posten solltest du {amount} pro Monat zurücklegen.",
+  "@overviewReserveText": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "overviewDueSoon": "Demnächst fällig",
+  "overviewDueThisMonth": "Diesen Monat",
+  "overviewDueInMonths": "{months, plural, =1{Nächsten Monat} other{In {months} Monaten}}",
+  "@overviewDueInMonths": {
+    "placeholders": {
+      "months": {
+        "type": "int"
+      }
+    }
+  },
+  "overviewInsights": "{count, plural, =1{1 Tipp für dein Budget} other{{count} Tipps für dein Budget}}",
+  "@overviewInsights": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "overviewInsightsPotential": "Mögliche Ersparnis ca. {amount} pro Monat",
+  "@overviewInsightsPotential": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  }
+}

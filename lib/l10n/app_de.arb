@@ -1,0 +1,600 @@
+{
+  "@@locale": "de",
+  "catHousing": "Wohnen",
+  "catInsurance": "Versicherungen",
+  "catMobility": "Mobilität",
+  "catCommunication": "Kommunikation",
+  "catSubscriptions": "Abos",
+  "catBanking": "Konten & Gebühren",
+  "catGroceries": "Lebensmittel & Haushalt",
+  "catLeisure": "Freizeit & Wünsche",
+  "catSavings": "Sparen",
+  "bucketNeeds": "Grundbedarf",
+  "bucketWants": "Wünsche",
+  "bucketSavings": "Sparen",
+  "intervalMonthly": "Monatlich",
+  "intervalQuarterly": "Vierteljährlich",
+  "intervalHalfYearly": "Halbjährlich",
+  "intervalYearly": "Jährlich",
+  "intervalWeekly": "Wöchentlich",
+  "accountKindChecking": "Girokonto",
+  "accountKindSavings": "Tagesgeld / Sparkonto",
+  "accountKindCard": "Karte",
+  "accountKindOther": "Sonstiges",
+  "splitTitle": "Gemeinsame Kosten aufteilen",
+  "splitProportional": "Nach Einkommen",
+  "splitEqual": "Zu gleichen Teilen",
+  "splitEqualRemainder": "Gleiches Restgeld",
+  "splitProportionalHint": "Wer mehr verdient, trägt mehr von den gemeinsamen Kosten.",
+  "splitEqualHint": "Gemeinsame Kosten werden durch die Anzahl der Personen geteilt.",
+  "splitEqualRemainderHint": "Am Monatsende hat jede Person gleich viel frei verfügbar.",
+  "appTitle": "Mai Budget",
+  "commonBack": "Zurück",
+  "commonCancel": "Abbrechen",
+  "commonChange": "Ändern",
+  "commonContinue": "Weiter",
+  "commonDelete": "Löschen",
+  "commonInvalidAmount": "Bitte einen gültigen Betrag eingeben",
+  "commonName": "Name",
+  "commonNegativeAmount": "Betrag darf nicht negativ sein",
+  "commonNone": "Keins",
+  "commonPerMonth": "Monat",
+  "commonPerYear": "Jahr",
+  "commonRequired": "Pflichtfeld",
+  "commonRetry": "Erneut versuchen",
+  "commonSave": "Speichern",
+  "commonUnderstood": "Verstanden",
+  "commonUndo": "Rückgängig",
+  "tabOverview": "Übersicht",
+  "tabItems": "Posten",
+  "tabDistribution": "Verteiler",
+  "tabInsights": "Tipps",
+  "tabSettings": "Einstellungen",
+  "tabMore": "Mehr",
+  "distributionIntro": "Daueraufträge zum Monatsanfang: was jede Person auf welches Konto überweist und was danach frei bleibt.",
+  "distributionNoAccount": "Ohne Konto",
+  "distributionRemainder": "Bleibt frei",
+  "distributionRemainderTo": "Bleibt frei auf {account}",
+  "@distributionRemainderTo": {
+    "placeholders": {
+      "account": {
+        "type": "String"
+      }
+    }
+  },
+  "distributionFairness": "Fairer Ausgleich",
+  "distributionBalanced": "Ausgeglichen — niemand muss etwas überweisen.",
+  "distributionSettlement": "{from} überweist an {to}",
+  "@distributionSettlement": {
+    "placeholders": {
+      "from": {
+        "type": "String"
+      },
+      "to": {
+        "type": "String"
+      }
+    }
+  },
+  "distributionSavings": "Sparkonten in 12 Monaten",
+  "distributionProjection": "{deposit} pro Monat · {rate} % Zinsen · davon Zinsen {interest}",
+  "@distributionProjection": {
+    "placeholders": {
+      "deposit": {
+        "type": "String"
+      },
+      "rate": {
+        "type": "String"
+      },
+      "interest": {
+        "type": "String"
+      }
+    }
+  },
+  "distributionProjectionHint": "Hochrechnung mit monatlicher Verzinsung, ohne Steuern. Startwert = eingetragener Kontostand.",
+  "insightsEmptyTitle": "Alles im grünen Bereich",
+  "insightsEmptyText": "Gerade gibt es keine Vorschläge. Je mehr Posten du einträgst, desto genauer werden die Tipps.",
+  "insightsPotentialTitle": "Geschätztes Sparpotenzial",
+  "insightsPotentialValue": "{monthly} pro Monat · {yearly} pro Jahr",
+  "@insightsPotentialValue": {
+    "placeholders": {
+      "monthly": {
+        "type": "String"
+      },
+      "yearly": {
+        "type": "String"
+      }
+    }
+  },
+  "insightsPerMonth": "ca. {amount}/Monat",
+  "@insightsPerMonth": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "insightsDisclaimer": "Die Tipps beruhen auf festen Regeln und deinen Angaben; Ersparnisse sind grobe Schätzungen. Keine Steuer-, Rechts- oder Anlageberatung.",
+  "insightDeficitTitle": "Ausgaben übersteigen das Einkommen",
+  "insightDeficitText": "Es fehlen {amount} pro Monat. Prüfe zuerst Wünsche und Abos oder passe Sparraten vorübergehend an.",
+  "@insightDeficitText": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "insightNeedsTitle": "Grundbedarf über dem Ziel",
+  "insightNeedsText": "Fixkosten und Grundbedarf liegen bei {percent} % statt {target} % (≈ {amount} pro Monat zu viel). Größte Hebel sind meist Wohnen, Mobilität und Versicherungen.",
+  "@insightNeedsText": {
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      },
+      "target": {
+        "type": "int"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "insightSavingsTitle": "Sparquote unter dem Ziel",
+  "insightSavingsText": "Du sparst {percent} % statt {target} %. Für das Ziel fehlen {amount} pro Monat — am einfachsten per Dauerauftrag direkt am Gehaltstag.",
+  "@insightSavingsText": {
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      },
+      "target": {
+        "type": "int"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "insightFlaggedTitle": "Markierte Sparpotenziale",
+  "insightFlaggedText": "{count, plural, =1{Bei einem Posten hast du eine mögliche Ersparnis eingetragen.} other{Bei {count} Posten hast du eine mögliche Ersparnis eingetragen.}} Setze dir einen Termin, um zu kündigen oder zu wechseln.",
+  "@insightFlaggedText": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "insightDuplicateTitle": "„{label}“ gibt es mehrfach",
+  "@insightDuplicateTitle": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "insightDuplicateText": "{count} Verträge mit zusammen {amount} pro Monat. Ein Partner- oder Familientarif ist oft günstiger.",
+  "@insightDuplicateText": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "insightOverlapTitle": "Mehrere Abos: {label}",
+  "@insightOverlapTitle": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "insightOverlapText": "{count} Abos derselben Art laufen parallel. Rotieren spart: immer nur eins aktiv halten und monatlich wechseln.",
+  "@insightOverlapText": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "insightInsuranceTitle": "Versicherungen jährlich zahlen",
+  "insightInsuranceText": "{count, plural, =1{Eine Versicherung wird} other{{count} Versicherungen werden}} unterjährig bezahlt. Viele Versicherer berechnen dafür Aufschläge von einigen Prozent — jährliche Zahlweise anfragen.",
+  "@insightInsuranceText": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "insightZeroTitle": "Posten ohne Betrag",
+  "insightZeroText": "{count, plural, =1{Ein Posten hat} other{{count} Posten haben}} 0 €. Fehlt der Betrag, oder kann der Vertrag weg?",
+  "@insightZeroText": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "insightInterestTitle": "Zinsen auf dem Sparkonto prüfen",
+  "insightInterestText": "Mindestens ein Sparkonto hat keinen oder weniger als {rate} % Zins eingetragen. Ein Tagesgeldvergleich lohnt sich bei regelmäßigen Sparraten.",
+  "@insightInterestText": {
+    "placeholders": {
+      "rate": {
+        "type": "String"
+      }
+    }
+  },
+  "insightEmergencyTitle": "Notgroschen",
+  "insightEmergencyText": "Empfohlen sind drei Monate Grundbedarf, also etwa {amount}. Auf deinen Sparkonten liegen {percent} % davon.",
+  "@insightEmergencyText": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      },
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "insightEmergencyUnknown": "Empfohlen sind drei Monate Grundbedarf, also etwa {amount}. Trage Kontostände bei deinen Sparkonten ein, um den Stand zu sehen.",
+  "@insightEmergencyUnknown": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "insightBiggestWantTitle": "Größter Wunsch-Posten: {label}",
+  "@insightBiggestWantTitle": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "insightBiggestWantText": "Er macht {percent} % deines Nettoeinkommens aus — {amount} im Jahr. Schon eine kleine Reduzierung wirkt hier stark.",
+  "@insightBiggestWantText": {
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "insightMissingAccountTitle": "Posten ohne Konto",
+  "insightMissingAccountText": "{count, plural, =1{Ein Posten ist} other{{count} Posten sind}} keinem Konto zugeordnet. Mit Konto zeigt der Verteiler genaue Daueraufträge.",
+  "@insightMissingAccountText": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "insightReserveTitle": "Jahreszahlungen ansparen",
+  "insightReserveText": "Lege {amount} pro Monat auf ein eigenes Unterkonto, dann sind Jahresbeiträge kein Loch im Konto.",
+  "@insightReserveText": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "itemsAdd": "Posten hinzufügen",
+  "itemsEdit": "Posten bearbeiten",
+  "itemsEmptyTitle": "Noch keine Posten",
+  "itemsEmptyText": "Tippe auf „Posten hinzufügen“. Vorschläge helfen bei Miete, Versicherungen, Abos und mehr.",
+  "itemsSearch": "Posten suchen",
+  "itemsFilterAll": "Alle",
+  "itemsFilterShared": "Gemeinsam",
+  "itemsCount": "{count, plural, =0{Keine Posten} =1{1 Posten} other{{count} Posten}}",
+  "@itemsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "itemsHasPotential": "Sparpotenzial",
+  "itemsDeleted": "„{label}“ gelöscht",
+  "@itemsDeleted": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "itemsLabel": "Bezeichnung",
+  "itemsCategory": "Bereich",
+  "itemsAmount": "Betrag",
+  "itemsInterval": "Rhythmus",
+  "itemsMonthlyEquivalent": "Entspricht {amount} pro Monat",
+  "@itemsMonthlyEquivalent": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "itemsDueMonth": "Fällig im",
+  "itemsPayer": "Wer zahlt?",
+  "itemsJoint": "Gemeinschaftskonto",
+  "itemsBeneficiary": "Für wen?",
+  "itemsBeneficiaryHint": "Wichtig für den fairen Ausgleich",
+  "itemsHousehold": "Ganzer Haushalt",
+  "itemsAccount": "Abbuchung von Konto",
+  "itemsAccountSavings": "Sparen auf Konto",
+  "itemsDetails": "Details",
+  "itemsDetailsHint": "Topf, Anbieter, Vertragsnummer, Sparpotenzial …",
+  "itemsBucket": "Topf (Budgetregel)",
+  "itemsBucketHint": "z. B. Genussmittel unter Lebensmittel als „Wünsche“ zählen",
+  "itemsBucketFromCategory": "Wie Bereich ({bucket})",
+  "@itemsBucketFromCategory": {
+    "placeholders": {
+      "bucket": {
+        "type": "String"
+      }
+    }
+  },
+  "itemsTag": "Unterkategorie",
+  "itemsTagHint": "z. B. Streaming, Sport — gleiche Unterkategorien werden verglichen",
+  "itemsProvider": "Anbieter",
+  "itemsContract": "Vertrags-/Versicherungsnummer",
+  "itemsPhone": "Telefon",
+  "itemsPotential": "Mögliche Ersparnis pro Monat",
+  "itemsPotentialHint": "Eigene Einschätzung, z. B. nach Tarifvergleich oder Kündigung",
+  "itemsTarget": "Sparziel",
+  "itemsNotes": "Notizen",
+  "onboardingTitle": "Dein Budget bleibt bei dir",
+  "onboardingSubtitle": "Einkommen, Fixkosten, Abos und Sparziele an einem Ort — für dich allein oder den ganzen Haushalt.",
+  "onboardingPointEncrypted": "Alle Zahlen liegen verschlüsselt nur auf diesem Gerät. Kein Konto, kein Server.",
+  "onboardingPointOffline": "Die App braucht kein Internet und keine Bankverbindung — du trägst deine Posten selbst ein.",
+  "onboardingPointDistribution": "Der Verteiler zeigt, wer wie viel auf welches Konto überweist und wie ihr fair ausgleicht.",
+  "onboardingPointInsights": "Tipps zeigen Sparpotenziale: doppelte Abos, Zahlweise, Zinsen, Budgetregel.",
+  "onboardingHouseholdTitle": "Wer gehört zum Haushalt?",
+  "onboardingHouseholdText": "Trage alle Personen ein, die zum Budget beitragen, mit ihrem monatlichen Nettoeinkommen.",
+  "onboardingNet": "Netto pro Monat",
+  "onboardingHint": "Weitere Einkommen, Brutto und Konten kannst du später in den Einstellungen ergänzen.",
+  "onboardingStart": "Los geht's",
+  "onboardingIncomeLabel": "Gehalt",
+  "onboardingMainAccount": "Girokonto {name}",
+  "@onboardingMainAccount": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "overviewFree": "Frei verfügbar",
+  "overviewIncome": "Nettoeinkommen",
+  "overviewPlanned": "Geplante Posten",
+  "overviewPlannedHint": "Fixkosten, Abos, Lebensmittel, Wünsche und Sparraten",
+  "overviewFreeOf": "Frei für {name}",
+  "@overviewFreeOf": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "overviewDeductions": "Abzüge (Steuern und Sozialabgaben): {percent} % vom Brutto",
+  "@overviewDeductions": {
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "overviewEmptyTitle": "Noch keine Posten",
+  "overviewEmptyText": "Lege Miete, Versicherungen, Abos, Lebensmittel und Sparraten an — die Übersicht rechnet alles auf Monat und Jahr um.",
+  "overviewRuleTitle": "Budgetregel {needs}/{wants}/{savings}",
+  "@overviewRuleTitle": {
+    "placeholders": {
+      "needs": {
+        "type": "int"
+      },
+      "wants": {
+        "type": "int"
+      },
+      "savings": {
+        "type": "int"
+      }
+    }
+  },
+  "overviewRuleNoIncome": "Trage ein Einkommen ein, um die Verteilung zu sehen.",
+  "overviewRuleShare": "{share} % von {target} %",
+  "@overviewRuleShare": {
+    "placeholders": {
+      "share": {
+        "type": "String"
+      },
+      "target": {
+        "type": "int"
+      }
+    }
+  },
+  "overviewRuleHint": "Anteile am Nettoeinkommen. Der Strich markiert das Ziel; was übrig bleibt, ist frei verfügbar.",
+  "overviewCategories": "Bereiche",
+  "overviewReserveTitle": "Rücklage für Jahreszahlungen",
+  "overviewReserveText": "Für Versicherungen, Steuern und andere nicht monatliche Posten solltest du {amount} pro Monat zurücklegen.",
+  "@overviewReserveText": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "overviewDueSoon": "Demnächst fällig",
+  "overviewDueThisMonth": "Diesen Monat",
+  "overviewDueInMonths": "{months, plural, =1{Nächsten Monat} other{In {months} Monaten}}",
+  "@overviewDueInMonths": {
+    "placeholders": {
+      "months": {
+        "type": "int"
+      }
+    }
+  },
+  "overviewInsights": "{count, plural, =1{1 Tipp für dein Budget} other{{count} Tipps für dein Budget}}",
+  "@overviewInsights": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "overviewInsightsPotential": "Mögliche Ersparnis ca. {amount} pro Monat",
+  "@overviewInsightsPotential": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsBudgetSection": "Budget",
+  "settingsHousehold": "Haushalt & Einkommen",
+  "settingsHouseholdSummary": "{count, plural, =1{1 Person} other{{count} Personen}} · {income} netto/Monat",
+  "@settingsHouseholdSummary": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "income": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsAccounts": "Konten",
+  "settingsAccountsSummary": "{count, plural, =0{Noch keine Konten} =1{1 Konto} other{{count} Konten}}",
+  "@settingsAccountsSummary": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsCategories": "Bereiche",
+  "settingsCategoriesSummary": "{count} Bereiche",
+  "@settingsCategoriesSummary": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsRule": "Budgetregel",
+  "settingsRuleValue": "{needs} % Grundbedarf · {wants} % Wünsche · {savings} % Sparen",
+  "@settingsRuleValue": {
+    "placeholders": {
+      "needs": {
+        "type": "int"
+      },
+      "wants": {
+        "type": "int"
+      },
+      "savings": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsRuleHint": "Wie viel vom Nettoeinkommen in welchen Topf gehen soll. Bekannt ist 50/30/20.",
+  "settingsSecuritySection": "Sicherheit",
+  "settingsLockTitle": "App-Sperre",
+  "settingsLockSubtitle": "Entsperren mit Fingerabdruck oder Geräte-PIN; Inhalte in „Zuletzt verwendet“ und Screenshots ausblenden",
+  "settingsLockNoDeviceLock": "Richte zuerst eine Displaysperre auf dem Gerät ein.",
+  "settingsLockReasonSetup": "App-Sperre einschalten",
+  "settingsLockReasonDisable": "App-Sperre ausschalten",
+  "settingsLockReasonUnlock": "Mai Budget entsperren",
+  "settingsLockLockedTitle": "Mai Budget ist gesperrt",
+  "settingsLockLockedText": "Entsperre die App, um deine Zahlen zu sehen.",
+  "settingsLockUnlock": "Entsperren",
+  "settingsBackupSection": "Sicherung",
+  "settingsPrivacySection": "Datenschutz",
+  "settingsPrivacyText": "Alle Daten liegen verschlüsselt in der App auf diesem Gerät (SQLCipher-kompatibel, Schlüssel im Android-Keystore). Die App hat keine Internet-Berechtigung, nimmt nicht an Android-Backups teil und überträgt nichts. Daten verlassen das Gerät nur über eine Sicherung, die du selbst mit Passwort erstellst.",
+  "settingsKeyUnavailableTitle": "Schlüssel gerade nicht verfügbar",
+  "settingsKeyUnavailableText": "Der Schlüssel deiner verschlüsselten Daten konnte gerade nicht gelesen werden. Deine Daten sind unverändert — bitte versuche es gleich noch einmal.",
+  "settingsUnreadableTitle": "Alte Daten nicht lesbar",
+  "settingsUnreadableText": "Die gespeicherten Daten ließen sich nicht entschlüsseln (z. B. nach Zurücksetzen der Gerätesicherheit) und wurden beiseitegelegt. Stelle sie aus einer Sicherung wieder her.",
+  "householdAddPerson": "Person hinzufügen",
+  "householdRename": "Umbenennen",
+  "householdRemoveTitle": "{name} entfernen?",
+  "@householdRemoveTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "householdRemoveText": "Einkommen und Konten der Person werden archiviert. Ihre Posten bleiben erhalten und zählen danach als gemeinsam.",
+  "householdNet": "{amount} netto pro Monat",
+  "@householdNet": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "householdGross": "brutto {amount}",
+  "@householdGross": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "householdAddIncome": "Einkommen hinzufügen",
+  "householdIncomeOf": "Einkommen von {name}",
+  "@householdIncomeOf": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "householdIncomeLabel": "Bezeichnung",
+  "householdNetLabel": "Netto",
+  "householdGrossLabel": "Brutto (optional)",
+  "householdGrossHint": "Nur für die Anzeige der Abzüge",
+  "accountsAdd": "Konto hinzufügen",
+  "accountsEdit": "Konto bearbeiten",
+  "accountsIntro": "Konten sind die Ziele im Verteiler: Girokonten, Tagesgeld-Unterkonten für Urlaub oder Geschenke, Karten. Das Hauptkonto einer Person bekommt, was übrig bleibt.",
+  "accountsKind": "Art",
+  "accountsOwner": "Inhaber",
+  "accountsJoint": "Gemeinsam",
+  "accountsMain": "Hauptkonto",
+  "accountsMainHint": "Bekommt das frei verfügbare Geld",
+  "accountsRate": "Zinssatz",
+  "accountsBalance": "Aktueller Kontostand (optional)",
+  "accountsBalanceHint": "Für Notgroschen und Sparprognose",
+  "categoriesAdd": "Bereich hinzufügen",
+  "categoriesEdit": "Bereich bearbeiten",
+  "categoriesIntro": "Bereiche gliedern deine Posten. Der Topf bestimmt, wie sie in der Budgetregel zählen.",
+  "categoriesNotEmpty": "Nur leere Bereiche können gelöscht werden.",
+  "backupIntro": "Verschlüsselte Datei mit allen Daten (AES-256). Ohne Passwort lässt sie sich nicht öffnen — bewahre es gut auf.",
+  "backupCreate": "Sicherung erstellen",
+  "backupRestore": "Wiederherstellen",
+  "backupCreated": "Sicherung erstellt",
+  "backupFailed": "Sicherung fehlgeschlagen",
+  "backupShareSubject": "Mai Budget Sicherung",
+  "backupPick": "Sicherung auswählen",
+  "backupRestoreConfirmTitle": "Alle Daten ersetzen?",
+  "backupRestoreConfirmText": "Die Sicherung ersetzt alle aktuellen Daten in der App. Das lässt sich nicht rückgängig machen.",
+  "backupReplace": "Ersetzen",
+  "backupRestored": "Sicherung vom {date} wiederhergestellt",
+  "@backupRestored": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "backupPassphrase": "Passwort",
+  "backupPassphraseRepeat": "Passwort wiederholen",
+  "backupPassphraseCreateHint": "Mit diesem Passwort wird die Sicherung verschlüsselt. Es wird nirgends gespeichert.",
+  "backupPassphraseRestoreHint": "Passwort der Sicherung eingeben.",
+  "backupPassphraseTooShort": "Mindestens 8 Zeichen",
+  "backupPassphraseMismatch": "Passwörter stimmen nicht überein",
+  "backupWrongApp": "Diese Datei ist keine Mai-Budget-Sicherung.",
+  "backupTooNew": "Die Sicherung stammt aus einer neueren App-Version — bitte erst die App aktualisieren.",
+  "backupUnsupported": "Sicherungen sind in dieser Version nicht verfügbar."
+}

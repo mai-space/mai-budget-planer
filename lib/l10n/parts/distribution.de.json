@@ -1,0 +1,42 @@
+{
+  "distributionIntro": "Daueraufträge zum Monatsanfang: was jede Person auf welches Konto überweist und was danach frei bleibt.",
+  "distributionNoAccount": "Ohne Konto",
+  "distributionRemainder": "Bleibt frei",
+  "distributionRemainderTo": "Bleibt frei auf {account}",
+  "@distributionRemainderTo": {
+    "placeholders": {
+      "account": {
+        "type": "String"
+      }
+    }
+  },
+  "distributionFairness": "Fairer Ausgleich",
+  "distributionBalanced": "Ausgeglichen — niemand muss etwas überweisen.",
+  "distributionSettlement": "{from} überweist an {to}",
+  "@distributionSettlement": {
+    "placeholders": {
+      "from": {
+        "type": "String"
+      },
+      "to": {
+        "type": "String"
+      }
+    }
+  },
+  "distributionSavings": "Sparkonten in 12 Monaten",
+  "distributionProjection": "{deposit} pro Monat · {rate} % Zinsen · davon Zinsen {interest}",
+  "@distributionProjection": {
+    "placeholders": {
+      "deposit": {
+        "type": "String"
+      },
+      "rate": {
+        "type": "String"
+      },
+      "interest": {
+        "type": "String"
+      }
+    }
+  },
+  "distributionProjectionHint": "Hochrechnung mit monatlicher Verzinsung, ohne Steuern. Startwert = eingetragener Kontostand."
+}

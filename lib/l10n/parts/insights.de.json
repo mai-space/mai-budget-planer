@@ -1,0 +1,192 @@
+{
+  "insightsEmptyTitle": "Alles im grünen Bereich",
+  "insightsEmptyText": "Gerade gibt es keine Vorschläge. Je mehr Posten du einträgst, desto genauer werden die Tipps.",
+  "insightsPotentialTitle": "Geschätztes Sparpotenzial",
+  "insightsPotentialValue": "{monthly} pro Monat · {yearly} pro Jahr",
+  "@insightsPotentialValue": {
+    "placeholders": {
+      "monthly": {
+        "type": "String"
+      },
+      "yearly": {
+        "type": "String"
+      }
+    }
+  },
+  "insightsPerMonth": "ca. {amount}/Monat",
+  "@insightsPerMonth": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "insightsDisclaimer": "Die Tipps beruhen auf festen Regeln und deinen Angaben; Ersparnisse sind grobe Schätzungen. Keine Steuer-, Rechts- oder Anlageberatung.",
+  "insightDeficitTitle": "Ausgaben übersteigen das Einkommen",
+  "insightDeficitText": "Es fehlen {amount} pro Monat. Prüfe zuerst Wünsche und Abos oder passe Sparraten vorübergehend an.",
+  "@insightDeficitText": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "insightNeedsTitle": "Grundbedarf über dem Ziel",
+  "insightNeedsText": "Fixkosten und Grundbedarf liegen bei {percent} % statt {target} % (≈ {amount} pro Monat zu viel). Größte Hebel sind meist Wohnen, Mobilität und Versicherungen.",
+  "@insightNeedsText": {
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      },
+      "target": {
+        "type": "int"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "insightSavingsTitle": "Sparquote unter dem Ziel",
+  "insightSavingsText": "Du sparst {percent} % statt {target} %. Für das Ziel fehlen {amount} pro Monat — am einfachsten per Dauerauftrag direkt am Gehaltstag.",
+  "@insightSavingsText": {
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      },
+      "target": {
+        "type": "int"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "insightFlaggedTitle": "Markierte Sparpotenziale",
+  "insightFlaggedText": "{count, plural, =1{Bei einem Posten hast du eine mögliche Ersparnis eingetragen.} other{Bei {count} Posten hast du eine mögliche Ersparnis eingetragen.}} Setze dir einen Termin, um zu kündigen oder zu wechseln.",
+  "@insightFlaggedText": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "insightDuplicateTitle": "„{label}“ gibt es mehrfach",
+  "@insightDuplicateTitle": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "insightDuplicateText": "{count} Verträge mit zusammen {amount} pro Monat. Ein Partner- oder Familientarif ist oft günstiger.",
+  "@insightDuplicateText": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "insightOverlapTitle": "Mehrere Abos: {label}",
+  "@insightOverlapTitle": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "insightOverlapText": "{count} Abos derselben Art laufen parallel. Rotieren spart: immer nur eins aktiv halten und monatlich wechseln.",
+  "@insightOverlapText": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "insightInsuranceTitle": "Versicherungen jährlich zahlen",
+  "insightInsuranceText": "{count, plural, =1{Eine Versicherung wird} other{{count} Versicherungen werden}} unterjährig bezahlt. Viele Versicherer berechnen dafür Aufschläge von einigen Prozent — jährliche Zahlweise anfragen.",
+  "@insightInsuranceText": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "insightZeroTitle": "Posten ohne Betrag",
+  "insightZeroText": "{count, plural, =1{Ein Posten hat} other{{count} Posten haben}} 0 €. Fehlt der Betrag, oder kann der Vertrag weg?",
+  "@insightZeroText": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "insightInterestTitle": "Zinsen auf dem Sparkonto prüfen",
+  "insightInterestText": "Mindestens ein Sparkonto hat keinen oder weniger als {rate} % Zins eingetragen. Ein Tagesgeldvergleich lohnt sich bei regelmäßigen Sparraten.",
+  "@insightInterestText": {
+    "placeholders": {
+      "rate": {
+        "type": "String"
+      }
+    }
+  },
+  "insightEmergencyTitle": "Notgroschen",
+  "insightEmergencyText": "Empfohlen sind drei Monate Grundbedarf, also etwa {amount}. Auf deinen Sparkonten liegen {percent} % davon.",
+  "@insightEmergencyText": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      },
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "insightEmergencyUnknown": "Empfohlen sind drei Monate Grundbedarf, also etwa {amount}. Trage Kontostände bei deinen Sparkonten ein, um den Stand zu sehen.",
+  "@insightEmergencyUnknown": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "insightBiggestWantTitle": "Größter Wunsch-Posten: {label}",
+  "@insightBiggestWantTitle": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "insightBiggestWantText": "Er macht {percent} % deines Nettoeinkommens aus — {amount} im Jahr. Schon eine kleine Reduzierung wirkt hier stark.",
+  "@insightBiggestWantText": {
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "insightMissingAccountTitle": "Posten ohne Konto",
+  "insightMissingAccountText": "{count, plural, =1{Ein Posten ist} other{{count} Posten sind}} keinem Konto zugeordnet. Mit Konto zeigt der Verteiler genaue Daueraufträge.",
+  "@insightMissingAccountText": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "insightReserveTitle": "Jahreszahlungen ansparen",
+  "insightReserveText": "Lege {amount} pro Monat auf ein eigenes Unterkonto, dann sind Jahresbeiträge kein Loch im Konto.",
+  "@insightReserveText": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  }
+}

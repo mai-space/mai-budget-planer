@@ -1,0 +1,12 @@
+{
+  "distributionIntro": "Standing orders at the start of the month: what each person transfers to which account and what is left afterwards.",
+  "distributionNoAccount": "No account",
+  "distributionRemainder": "Left to spend",
+  "distributionRemainderTo": "Left on {account}",
+  "distributionFairness": "Fair settlement",
+  "distributionBalanced": "Balanced — nobody needs to transfer anything.",
+  "distributionSettlement": "{from} pays {to}",
+  "distributionSavings": "Savings accounts in 12 months",
+  "distributionProjection": "{deposit} per month · {rate} % interest · interest earned {interest}",
+  "distributionProjectionHint": "Projection with monthly compounding, before tax. Start value = entered balance."
+}
