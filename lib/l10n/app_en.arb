@@ -237,5 +237,9 @@
   "backupPassphraseMismatch": "Passwords do not match",
   "backupWrongApp": "This file is not a Mai Budget backup.",
   "backupTooNew": "The backup comes from a newer app version — please update the app first.",
-  "backupUnsupported": "Backups are not available in this version."
+  "backupUnsupported": "Backups are not available in this version.",
+  "settingsWidgetsSection": "Widgets",
+  "settingsWidgetsHideAmounts": "Hide amounts in widgets",
+  "settingsWidgetsHideAmountsSubtitle": "The home screen then only shows names, months and shares.",
+  "settingsWidgetsHint": "Long-press your home screen → Widgets → Mai Budget. Three widgets: Free to spend, Due soon and New item — all resizable."
 }

@@ -1525,6 +1525,30 @@ abstract class AppLocalizations {
   /// In de, this message translates to:
   /// **'Sicherungen sind in dieser Version nicht verfügbar.'**
   String get backupUnsupported;
+
+  /// No description provided for @settingsWidgetsSection.
+  ///
+  /// In de, this message translates to:
+  /// **'Widgets'**
+  String get settingsWidgetsSection;
+
+  /// No description provided for @settingsWidgetsHideAmounts.
+  ///
+  /// In de, this message translates to:
+  /// **'Beträge im Widget ausblenden'**
+  String get settingsWidgetsHideAmounts;
+
+  /// No description provided for @settingsWidgetsHideAmountsSubtitle.
+  ///
+  /// In de, this message translates to:
+  /// **'Auf dem Startbildschirm erscheinen dann nur Namen, Monate und Anteile.'**
+  String get settingsWidgetsHideAmountsSubtitle;
+
+  /// No description provided for @settingsWidgetsHint.
+  ///
+  /// In de, this message translates to:
+  /// **'Lange auf den Startbildschirm tippen → Widgets → Mai Budget. Drei Widgets: Frei verfügbar, Demnächst fällig und Neuer Posten — alle in der Größe veränderbar.'**
+  String get settingsWidgetsHint;
 }
 
 class _AppLocalizationsDelegate

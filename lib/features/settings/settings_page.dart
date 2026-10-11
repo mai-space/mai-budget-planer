@@ -11,6 +11,7 @@ import 'backup_section.dart';
 import 'categories_page.dart';
 import 'household_page.dart';
 import 'security_section.dart';
+import 'widgets_section.dart';
 
 class SettingsPage extends StatelessWidget {
   const SettingsPage({super.key});
@@ -102,6 +103,13 @@ class SettingsPage extends StatelessWidget {
             padding: EdgeInsets.symmetric(horizontal: 16),
             child: SecuritySection(),
           ),
+          if (theme.platform == TargetPlatform.android) ...[
+            section(l10n.settingsWidgetsSection),
+            const Padding(
+              padding: EdgeInsets.symmetric(horizontal: 16),
+              child: WidgetsSection(),
+            ),
+          ],
           section(l10n.settingsBackupSection),
           const Padding(
             padding: EdgeInsets.symmetric(horizontal: 16),

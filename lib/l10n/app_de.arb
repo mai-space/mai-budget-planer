@@ -596,5 +596,9 @@
   "backupPassphraseMismatch": "Passwörter stimmen nicht überein",
   "backupWrongApp": "Diese Datei ist keine Mai-Budget-Sicherung.",
   "backupTooNew": "Die Sicherung stammt aus einer neueren App-Version — bitte erst die App aktualisieren.",
-  "backupUnsupported": "Sicherungen sind in dieser Version nicht verfügbar."
+  "backupUnsupported": "Sicherungen sind in dieser Version nicht verfügbar.",
+  "settingsWidgetsSection": "Widgets",
+  "settingsWidgetsHideAmounts": "Beträge im Widget ausblenden",
+  "settingsWidgetsHideAmountsSubtitle": "Auf dem Startbildschirm erscheinen dann nur Namen, Monate und Anteile.",
+  "settingsWidgetsHint": "Lange auf den Startbildschirm tippen → Widgets → Mai Budget. Drei Widgets: Frei verfügbar, Demnächst fällig und Neuer Posten — alle in der Größe veränderbar."
 }

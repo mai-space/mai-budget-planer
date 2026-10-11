@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Texte der Startbildschirm-Widgets (Englisch; Deutsch in values-de). -->
+<resources>
+    <string name="widget_budget_name">Free to spend</string>
+    <string name="widget_budget_description">What is left each month after all planned items</string>
+    <string name="widget_upcoming_name">Due soon</string>
+    <string name="widget_upcoming_description">Yearly and quarterly payments, next one first</string>
+    <string name="widget_quick_add_name">New item</string>
+    <string name="widget_quick_add_description">Add a new item to your budget</string>
+    <string name="widget_add">Add item</string>
+    <string name="widget_income">Net income</string>
+    <string name="widget_planned">Planned</string>
+    <string name="widget_reserve">Set aside / month</string>
+    <string name="widget_needs">Needs</string>
+    <string name="widget_wants">Wants</string>
+    <string name="widget_savings">Savings</string>
+    <string name="widget_share">%1$d %% · goal %2$d %%</string>
+    <string name="widget_this_month">This month</string>
+    <string name="widget_hidden">••••</string>
+    <string name="widget_open_app">Open Mai Budget to get started</string>
+    <string name="widget_no_upcoming">No yearly or quarterly payments planned</string>
+</resources>

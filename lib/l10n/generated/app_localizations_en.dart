@@ -901,4 +901,18 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get backupUnsupported => 'Backups are not available in this version.';
+
+  @override
+  String get settingsWidgetsSection => 'Widgets';
+
+  @override
+  String get settingsWidgetsHideAmounts => 'Hide amounts in widgets';
+
+  @override
+  String get settingsWidgetsHideAmountsSubtitle =>
+      'The home screen then only shows names, months and shares.';
+
+  @override
+  String get settingsWidgetsHint =>
+      'Long-press your home screen → Widgets → Mai Budget. Three widgets: Free to spend, Due soon and New item — all resizable.';
 }
