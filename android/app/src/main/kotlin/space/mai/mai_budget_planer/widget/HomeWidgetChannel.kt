@@ -40,6 +40,8 @@ class HomeWidgetChannel(
                 }
                 WidgetStore.savePayload(context, json)
                 Widgets.refreshAll(context)
+                // Gleicher Stand für Kacheln und Komplikationen auf der Uhr.
+                WatchSync.push(context, json)
                 result.success(null)
             }
             "getHideAmounts" -> result.success(WidgetStore.hideAmounts(context))

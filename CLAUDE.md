@@ -29,6 +29,11 @@ und gleicher Stack wie Mai Doctor Hub. UI Deutsch/Englisch nach Systemsprache.
 - **Sicherungen (`packages/mai_backup_format`, `backup_service_io.dart`)** —
   ältere Sicherungen müssen wiederherstellbar bleiben (Restore migriert).
   Manifest nur erweitern; `app` bleibt `mai_budget_planer`.
+- **Uhr (Wear OS, `android/wear`)** — Pfade/Schlüssel in
+  `widget/shared/WatchProtocol.kt` nie ändern (Handy und Uhr können
+  verschiedene Versionen haben); der Widget-Stand (`widgetPayload`, v1)
+  wird nur erweitert. `widget/shared/` bleibt frei von App-Abhängigkeiten,
+  weil das Modul `wear` den Ordner mitkompiliert.
 - **Beträge** immer als `int` Cent speichern; Umrechnung auf Monat nur in
   `domain/budget.dart` (`monthlyOf`).
 

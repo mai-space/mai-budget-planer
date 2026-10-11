@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Budget</string>
+    <string name="tile_free_name">Frei verfügbar</string>
+    <string name="tile_free_description">Was im Monat nach allen Posten übrig bleibt</string>
+    <string name="tile_upcoming_name">Demnächst fällig</string>
+    <string name="tile_upcoming_description">Jahres- und Quartalszahlungen, die nächste zuerst</string>
+    <string name="complication_next_name">Nächste Zahlung</string>
+    <string name="free_short">Frei</string>
+    <string name="free_per_month">Frei / Monat</string>
+    <string name="next_label">Nächste: %1$s</string>
+    <string name="this_month">Diesen Monat</string>
+    <string name="hidden">••••</string>
+    <string name="no_data">Budget auf dem Handy öffnen</string>
+    <string name="no_upcoming">Keine Jahres- oder Quartalszahlungen</string>
+    <string name="amounts_hidden_hint">Beträge sind ausgeblendet (Budget auf dem Handy → Einstellungen → Widgets)</string>
+    <string name="this_month_short">Jetzt</string>
+    <string name="preview_label">Kfz-Versicherung</string>
+</resources>

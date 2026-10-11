@@ -915,4 +915,8 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get settingsWidgetsHint =>
       'Long-press your home screen → Widgets → Budget. Three widgets: Free to spend, Due soon and New item — all resizable.';
+
+  @override
+  String get settingsWidgetsWatchHint =>
+      'With a Wear OS watch: install Budget on the watch. It shows the same data as tiles and watch face complications (Free to spend, Next payment); “Hide amounts” applies there too. Data only goes to your own paired watch via Google Play services.';
 }

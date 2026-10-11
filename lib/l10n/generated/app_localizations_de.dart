@@ -919,4 +919,8 @@ class AppLocalizationsDe extends AppLocalizations {
   @override
   String get settingsWidgetsHint =>
       'Lange auf den Startbildschirm tippen → Widgets → Budget. Drei Widgets: Frei verfügbar, Demnächst fällig und Neuer Posten — alle in der Größe veränderbar.';
+
+  @override
+  String get settingsWidgetsWatchHint =>
+      'Mit Wear-OS-Uhr: die Budget-App auf der Uhr installieren. Sie zeigt den gleichen Stand als Kacheln und Zifferblatt-Komplikationen (Frei verfügbar, Nächste Zahlung); „Beträge ausblenden“ gilt auch dort. Übertragen wird nur zur eigenen gekoppelten Uhr über die Google-Play-Dienste.';
 }

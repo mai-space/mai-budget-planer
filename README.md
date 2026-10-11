@@ -28,6 +28,10 @@ Bankanbindung.
   ohne Betrag/Konto, Jahresrücklage) mit geschätzter Ersparnis
 - **Einstellungen:** Haushalt & Einkommen (netto/brutto), Konten, Bereiche
   mit Topf, Budgetregel, App-Sperre, verschlüsselte Sicherung
+- **Wear OS (Modul `android/wear`, eigenes APK für die Uhr):** Kacheln
+  „Frei verfügbar“ und „Demnächst fällig“, Komplikationen „Frei“ und
+  „Nächste Zahlung“ — gleicher Stand wie die Startbildschirm-Widgets,
+  „Beträge ausblenden“ gilt auch dort
 
 ## Stack
 
@@ -60,7 +64,11 @@ flutter build apk --release
 ## Privacy
 
 - Daten nur in der verschlüsselten SQLite-Datei der App-Sandbox
-- **Keine INTERNET-Berechtigung** im Release, kein Google-Backup, kein
-  Gerätetransfer; Umzug nur per passwortgeschützter Sicherung
+- **Keine INTERNET-Berechtigung** im Release (Handy und Uhr, CI prüft
+  das), kein Google-Backup, kein Gerätetransfer; Umzug nur per
+  passwortgeschützter Sicherung
+- Uhr: Nur wenn die Budget-App auf einer gekoppelten Wear-OS-Uhr
+  installiert ist, geht der Widget-Stand über die Wearable Data Layer der
+  Google-Play-Dienste dorthin (ohne Uhr-App wird er dort gelöscht)
 - Echte Finanzdaten (Tabellen, Exporte, Sicherungen) gehören nie ins Repo —
   `.gitignore` blockt die üblichen Formate
