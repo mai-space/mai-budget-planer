@@ -20,6 +20,16 @@ int paymentsPerYear(PayInterval interval) => switch (interval) {
   PayInterval.weekly => 52,
 };
 
+/// Monate (1–12), in denen ein nicht monatlicher Posten fällig wird —
+/// Rhythmus ab `dueMonth`. Leer ohne Fälligkeitsmonat oder bei monatlichen
+/// Posten.
+List<int> dueMonthsOf(BudgetItem item) {
+  final due = item.dueMonth;
+  if (due == null || item.interval == PayInterval.monthly) return const [];
+  final step = 12 ~/ paymentsPerYear(item.interval).clamp(1, 12);
+  return [for (var k = 0; k < 12; k += step) (due - 1 + k) % 12 + 1]..sort();
+}
+
 /// Eine Überweisung im Einkommensverteiler: Person → Konto.
 class Transfer {
   const Transfer({required this.account, required this.monthly});
@@ -218,13 +228,11 @@ class BudgetSnapshot {
   List<(BudgetItem, int)> dueSoon(DateTime now, {int months = 3}) {
     final result = <(BudgetItem, int)>[];
     for (final item in items) {
-      final due = item.dueMonth;
-      if (due == null || item.interval == PayInterval.monthly) continue;
-      final step = 12 ~/ paymentsPerYear(item.interval).clamp(1, 12);
+      final dueMonths = dueMonthsOf(item);
+      if (dueMonths.isEmpty) continue;
       // Nächster Fälligkeitsmonat ab jetzt (Rhythmus ab dueMonth).
       var best = 12;
-      for (var k = 0; k < 12; k += step) {
-        final month = (due - 1 + k) % 12 + 1;
+      for (final month in dueMonths) {
         final distance = (month - now.month + 12) % 12;
         best = math.min(best, distance);
       }

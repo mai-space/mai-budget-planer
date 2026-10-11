@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="widget_budget_name">Frei verfügbar</string>
+    <string name="widget_budget_description">Was im Monat nach allen Posten übrig bleibt</string>
+    <string name="widget_upcoming_name">Demnächst fällig</string>
+    <string name="widget_upcoming_description">Jahres- und Quartalszahlungen, die nächste zuerst</string>
+    <string name="widget_quick_add_name">Neuer Posten</string>
+    <string name="widget_quick_add_description">Schnell einen neuen Posten anlegen</string>
+    <string name="widget_add">Posten hinzufügen</string>
+    <string name="widget_income">Nettoeinkommen</string>
+    <string name="widget_planned">Geplant</string>
+    <string name="widget_reserve">Rücklage / Monat</string>
+    <string name="widget_needs">Grundbedarf</string>
+    <string name="widget_wants">Wünsche</string>
+    <string name="widget_savings">Sparen</string>
+    <string name="widget_share">%1$d %% · Ziel %2$d %%</string>
+    <string name="widget_this_month">Diesen Monat</string>
+    <string name="widget_hidden">••••</string>
+    <string name="widget_open_app">Mai Budget öffnen und loslegen</string>
+    <string name="widget_no_upcoming">Keine Jahres- oder Quartalszahlungen geplant</string>
+</resources>

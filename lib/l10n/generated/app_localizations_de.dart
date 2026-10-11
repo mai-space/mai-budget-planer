@@ -905,4 +905,18 @@ class AppLocalizationsDe extends AppLocalizations {
   @override
   String get backupUnsupported =>
       'Sicherungen sind in dieser Version nicht verfügbar.';
+
+  @override
+  String get settingsWidgetsSection => 'Widgets';
+
+  @override
+  String get settingsWidgetsHideAmounts => 'Beträge im Widget ausblenden';
+
+  @override
+  String get settingsWidgetsHideAmountsSubtitle =>
+      'Auf dem Startbildschirm erscheinen dann nur Namen, Monate und Anteile.';
+
+  @override
+  String get settingsWidgetsHint =>
+      'Lange auf den Startbildschirm tippen → Widgets → Mai Budget. Drei Widgets: Frei verfügbar, Demnächst fällig und Neuer Posten — alle in der Größe veränderbar.';
 }

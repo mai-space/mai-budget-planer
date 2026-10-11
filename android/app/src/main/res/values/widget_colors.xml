@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Farben der Startbildschirm-Widgets (gleiche Familie wie AppColors). -->
+<resources>
+    <color name="widget_bg">#FAFBFC</color>
+    <color name="widget_ink">#15202B</color>
+    <color name="widget_muted">#5B6B78</color>
+    <color name="widget_positive">#2E7D5B</color>
+    <color name="widget_danger">#B33A3A</color>
+    <color name="widget_accent">#2F5D7C</color>
+    <color name="widget_on_accent">#FFFFFF</color>
+    <color name="widget_track">#1F15202B</color>
+    <color name="widget_needs">#3F7CAC</color>
+    <color name="widget_wants">#E09F3E</color>
+    <color name="widget_savings">#2E9E6B</color>
+</resources>
