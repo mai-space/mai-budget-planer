@@ -241,5 +241,6 @@
   "settingsWidgetsSection": "Widgets",
   "settingsWidgetsHideAmounts": "Hide amounts in widgets",
   "settingsWidgetsHideAmountsSubtitle": "The home screen then only shows names, months and shares.",
-  "settingsWidgetsHint": "Long-press your home screen → Widgets → Budget. Three widgets: Free to spend, Due soon and New item — all resizable."
+  "settingsWidgetsHint": "Long-press your home screen → Widgets → Budget. Three widgets: Free to spend, Due soon and New item — all resizable.",
+  "settingsWidgetsWatchHint": "With a Wear OS watch: install Budget on the watch. It shows the same data as tiles and watch face complications (Free to spend, Next payment); “Hide amounts” applies there too. Data only goes to your own paired watch via Google Play services."
 }

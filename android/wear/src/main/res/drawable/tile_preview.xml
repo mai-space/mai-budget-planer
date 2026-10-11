@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Vorschau in der Kachel-Auswahl: schlichte Münze auf dunklem Grund. -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#FF15202B" />
+            <size android:width="192dp" android:height="192dp" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/ic_complication" android:gravity="center" android:width="96dp" android:height="96dp" />
+</layer-list>

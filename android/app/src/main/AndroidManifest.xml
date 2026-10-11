@@ -1,6 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- Bewusst keine INTERNET-Berechtigung: Finanzdaten verlassen das Gerät
-         nur über eine vom Nutzer erstellte, verschlüsselte Sicherung. -->
+         nur über eine vom Nutzer erstellte, verschlüsselte Sicherung — und
+         der Widget-Stand an die eigene Uhr, falls dort die Budget-App
+         installiert ist (Wearable Data Layer, siehe WatchSync.kt). -->
     <uses-permission android:name="android.permission.USE_BIOMETRIC"/>
     <application
         android:label="Budget"
@@ -66,6 +68,27 @@
                 android:name="android.appwidget.provider"
                 android:resource="@xml/widget_quick_add_info" />
         </receiver>
+        <!-- Wear-OS-Uhr: Anfrage nach dem Widget-Stand, Uhr-App installiert.
+             Die Play-Dienste stellen nur Meldungen von Apps mit gleichem
+             Paketnamen und gleicher Signatur zu. -->
+        <service
+            android:name=".widget.WatchListenerService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.MESSAGE_RECEIVED" />
+                <data
+                    android:scheme="wear"
+                    android:host="*"
+                    android:pathPrefix="/mai_budget" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.CAPABILITY_CHANGED" />
+                <data
+                    android:scheme="wear"
+                    android:host="*"
+                    android:pathPrefix="/mai_budget_watch" />
+            </intent-filter>
+        </service>
         <!-- Don't delete the meta-data below.
              This is used by the Flutter tool to generate GeneratedPluginRegistrant.java -->
         <meta-data

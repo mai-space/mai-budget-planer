@@ -29,6 +29,12 @@ class WidgetsSection extends StatelessWidget {
           style: Theme.of(context).textTheme.bodySmall
               ?.copyWith(color: AppColors.muted),
         ),
+        const SizedBox(height: 8),
+        Text(
+          l10n.settingsWidgetsWatchHint,
+          style: Theme.of(context).textTheme.bodySmall
+              ?.copyWith(color: AppColors.muted),
+        ),
       ],
     );
   }

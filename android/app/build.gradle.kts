@@ -75,4 +75,6 @@ flutter {
 dependencies {
     // AppCompat-Themes (local_auth: Absturzschutz auf alten Android-Versionen).
     implementation("androidx.appcompat:appcompat:1.7.1")
+    // Abgleich mit der Wear-OS-App (Modul :wear), ohne INTERNET-Berechtigung.
+    implementation("com.google.android.gms:play-services-wearable:19.0.0")
 }

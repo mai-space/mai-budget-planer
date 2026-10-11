@@ -51,9 +51,7 @@ class UpcomingWidgetProvider : ResponsiveWidgetProvider() {
         views.setTextViewText(R.id.value_reserve, payload.reserve ?: hidden)
 
         val month = Calendar.getInstance().get(Calendar.MONTH) + 1
-        val sorted = payload.upcoming.sortedWith(
-            compareBy<UpcomingItem> { it.distanceFrom(month) }.thenBy { it.label.lowercase() },
-        )
+        val sorted = payload.sortedUpcoming(month)
         views.setViewVisibility(R.id.rows, if (sorted.isEmpty()) View.GONE else View.VISIBLE)
         views.setViewVisibility(R.id.none, if (sorted.isEmpty()) View.VISIBLE else View.GONE)
 

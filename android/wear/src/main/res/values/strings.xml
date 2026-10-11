@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Texte der Uhr-App (Englisch; Deutsch in values-de). -->
+<resources>
+    <string name="app_name">Budget</string>
+    <string name="tile_free_name">Free to spend</string>
+    <string name="tile_free_description">What is left each month after all planned items</string>
+    <string name="tile_upcoming_name">Due soon</string>
+    <string name="tile_upcoming_description">Yearly and quarterly payments, next one first</string>
+    <string name="complication_next_name">Next payment</string>
+    <string name="free_short">Free</string>
+    <string name="free_per_month">Free / month</string>
+    <string name="next_label">Next: %1$s</string>
+    <string name="this_month">This month</string>
+    <string name="hidden">••••</string>
+    <string name="no_data">Open Budget on your phone</string>
+    <string name="no_upcoming">No yearly or quarterly payments</string>
+    <string name="amounts_hidden_hint">Amounts are hidden (Budget on your phone → Settings → Widgets)</string>
+    <string name="this_month_short">Now</string>
+    <string name="preview_label">Car insurance</string>
+</resources>

@@ -24,3 +24,5 @@ plugins {
 }
 
 include(":app")
+// Wear-OS-App (Kacheln, Komplikationen); eigenes APK für die Uhr.
+include(":wear")
