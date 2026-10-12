@@ -1,5 +1,5 @@
 name: Idee vorschlagen
-description: Wunsch für eine neue Funktion oder Verbesserung in „Mai Budget“.
+description: Wunsch für eine neue Funktion oder Verbesserung in „Budget“.
 labels: ["enhancement"]
 body:
   - type: markdown
