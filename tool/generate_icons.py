@@ -9,6 +9,7 @@ Sparen) um eine Münze.
 from pathlib import Path
 
 import cairosvg
+from PIL import Image
 
 ROOT = Path(__file__).resolve().parent.parent
 RES = ROOT / "android/app/src/main/res"
@@ -130,6 +131,12 @@ def main():
     png(ROUNDED, web / "icons/Icon-512.png", 512)
     png(FULL_BLEED, web / "icons/Icon-maskable-192.png", 192)
     png(FULL_BLEED, web / "icons/Icon-maskable-512.png", 512)
+
+    # Play Store: 512 × 512, vollflächig (Google rundet die Ecken selbst ab).
+    # Gefordert ist 32-Bit-PNG mit Alphakanal.
+    store_icon = ROOT / "store/android/icon-512.png"
+    png(FULL_BLEED, store_icon, 512)
+    Image.open(store_icon).convert("RGBA").save(store_icon)
 
 
 if __name__ == "__main__":

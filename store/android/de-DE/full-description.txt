@@ -1,0 +1,37 @@
+Budget hilft dir, dein Haushaltsbudget zu planen – allein, zu zweit oder als Familie. Du trägst ein, was regelmäßig reinkommt und rausgeht, und siehst sofort, was im Monat wirklich frei bleibt. Alles bleibt auf deinem Gerät: kein Konto, keine Bankanbindung, keine Werbung, keine Internet-Berechtigung.
+
+ÜBERSICHT
+• Frei verfügbar pro Monat oder Jahr – gesamt und je Person
+• Budgetregel 50/30/20 (Grundbedarf, Wünsche, Sparen) mit Ist und Ziel, Anteile frei anpassbar
+• Summen je Bereich, Rücklage für Jahreszahlungen und demnächst fällige Posten
+
+POSTEN
+• Fixkosten, Versicherungen, Abos, Lebensmittel, Wünsche und Sparraten
+• Rhythmus wöchentlich, monatlich, vierteljährlich, halbjährlich oder jährlich – die App rechnet auf den Monat um
+• Wer zahlt, für wen, von welchem Konto; dazu Anbieter, Vertragsnummer, Telefon und Fälligkeit
+• Das Betragsfeld rechnet wie eine Tabelle: „2,49 + 2,49 + 5“ oder „195,05 / 12“
+• Vorschläge für typische Posten
+
+VERTEILER
+• Daueraufträge je Person auf Konten und Unterkonten, der Rest bleibt auf dem Hauptkonto
+• Fairer Ausgleich zwischen Partnern: nach Einkommen, hälftig oder so, dass beiden gleich viel Geld bleibt
+• Prognose für Sparkonten mit Zinseszins
+
+TIPPS
+Regelbasierte Hinweise mit geschätzter Ersparnis, zum Beispiel bei einem Defizit, zu hohen Fixkosten, niedriger Sparquote, doppelten Verträgen, parallelen Streaming-Abos, unterjährig gezahlten Versicherungen, niedrigem Zins oder fehlendem Notgroschen. Die Tipps entstehen auf deinem Gerät; nichts wird verschickt.
+
+WIDGETS UND UHR
+• Widgets für den Startbildschirm: Frei verfügbar, Demnächst fällig und Neuer Posten
+• Beträge im Widget auf Wunsch ausblenden
+• Wear OS: Kacheln und Komplikationen für „Frei verfügbar“ und „Nächste Zahlung“
+
+DATENSCHUTZ
+• Alle Daten liegen verschlüsselt auf deinem Gerät, der Schlüssel im Android-Keystore
+• Keine Internet-Berechtigung, keine Werbung, keine Analyse, kein Konto
+• Kein Android-Cloud-Backup: Umzug nur über eine passwortgeschützte Sicherungsdatei (AES-256), die du selbst erstellst und wiederherstellst
+• App-Sperre mit Fingerabdruck oder Geräte-PIN; Inhalte werden dann in „Zuletzt verwendet“ und auf Screenshots ausgeblendet
+• Zur Uhr gelangen nur die Widget-Werte, und nur zu deiner eigenen gekoppelten Uhr über die Google-Play-Dienste
+
+Budget importiert keine Kontoumsätze und ersetzt keine Finanzberatung – du planst mit deinen eigenen Zahlen.
+
+Sprachen: Deutsch und Englisch (nach Systemsprache).
