@@ -1,0 +1,37 @@
+Budget helps you plan your household budget – on your own, as a couple or as a family. Enter what comes in and goes out regularly and instantly see what is really left each month. Everything stays on your device: no account, no bank connection, no ads, no internet permission.
+
+OVERVIEW
+• Free to spend per month or year – in total and per person
+• 50/30/20 budget rule (needs, wants, savings) with actual vs. target, shares adjustable
+• Totals per category, a reserve for annual payments and items due soon
+
+ITEMS
+• Fixed costs, insurance, subscriptions, groceries, wants and savings
+• Weekly, monthly, quarterly, half-yearly or yearly – the app converts everything to a monthly amount
+• Who pays, for whom, from which account; plus provider, contract number, phone and due month
+• The amount field calculates like a spreadsheet: "2.49 + 2.49 + 5" or "195.05 / 12"
+• Suggestions for typical items
+
+SPLIT
+• Standing orders per person to accounts and sub-accounts; the rest stays in the main account
+• Fair settlement between partners: by income, half and half, or so that both keep the same amount
+• Savings account forecast with compound interest
+
+TIPS
+Rule-based hints with estimated savings, for example for a deficit, high fixed costs, a low savings rate, duplicate contracts, overlapping streaming subscriptions, insurance paid in instalments, low interest or a missing emergency fund. Tips are worked out on your device; nothing is sent anywhere.
+
+WIDGETS AND WATCH
+• Home screen widgets: Free to spend, Due soon and New item
+• Optionally hide amounts in widgets
+• Wear OS: tiles and complications for "Free to spend" and "Next payment"
+
+PRIVACY
+• All data is stored encrypted on your device, with the key in the Android Keystore
+• No internet permission, no ads, no analytics, no account
+• No Android cloud backup: move to a new phone with a password-protected backup file (AES-256) that you create and restore yourself
+• App lock with fingerprint or device PIN; content is then hidden in recent apps and screenshots
+• Only the widget values reach your watch, and only your own paired watch via Google Play services
+
+Budget does not import bank transactions and is not financial advice – you plan with your own numbers.
+
+Languages: German and English (follows your system language).
