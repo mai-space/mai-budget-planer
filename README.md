@@ -6,7 +6,7 @@ Daten verschlüsselt auf dem Gerät, kein Account, kein Server, keine
 Bankanbindung.
 
 > Erster Entwurf (v0.1). Konzept, Herleitung aus der bisherigen Tabelle und
-> Roadmap: [`docs/KONZEPT.md`](docs/KONZEPT.md)
+> Roadmap: [`project-docs/KONZEPT.md`](project-docs/KONZEPT.md)
 
 ## Features
 
