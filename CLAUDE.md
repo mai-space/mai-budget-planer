@@ -36,6 +36,10 @@ und gleicher Stack wie Mai Doctor Hub. UI Deutsch/Englisch nach Systemsprache.
   weil das Modul `wear` den Ordner mitkompiliert.
 - **Beträge** immer als `int` Cent speichern; Umrechnung auf Monat nur in
   `domain/budget.dart` (`monthlyOf`).
+- **Mai Launcher (`SummaryProvider`, Authority `space.mai.mai_budget_planer.summary`, Spalte
+  `json`)** — liefert den Widget-Stand nur an `space.mai.*`-Apps mit gleicher
+  Signatur. Authority, Spalte und Stand-Format nie ändern (nur erweitern);
+  der Launcher kann eine ältere oder neuere Version sein.
 
 ## Arbeitsweise
 

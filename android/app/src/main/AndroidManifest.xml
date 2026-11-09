@@ -11,6 +11,12 @@
         android:allowBackup="false"
         android:fullBackupContent="false"
         android:dataExtractionRules="@xml/data_extraction_rules">
+        <!-- Prognose-Übersicht im Mai Launcher: Widget-Stand nur für Mai-Apps
+             mit gleicher Signatur (Prüfung in SummaryProvider). Authority nie ändern. -->
+        <provider
+            android:name=".widget.SummaryProvider"
+            android:authorities="space.mai.mai_budget_planer.summary"
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
